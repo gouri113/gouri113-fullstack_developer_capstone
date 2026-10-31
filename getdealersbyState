@@ -1,0 +1,22 @@
+Command:
+curl -s http://127.0.0.1:8000/djangoapp/get_dealers/Kansas
+
+Output:
+{
+  "status": 200,
+  "dealers": [
+    {
+      "_id": "6ae5a2514f2e6df71f413c1f",
+      "id": 8,
+      "city": "Topeka",
+      "state": "Kansas",
+      "address": "288 Larry Place",
+      "zip": "66642",
+      "lat": "39.0429",
+      "long": "-95.7697",
+      "short_name": "Bytecard",
+      "full_name": "Bytecard Car Dealership",
+      "__v": 0
+    }
+  ]
+}

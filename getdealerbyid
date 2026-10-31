@@ -1,0 +1,22 @@
+Command:
+curl -s http://127.0.0.1:8000/djangoapp/dealer/1
+
+Output:
+{
+  "status": 200,
+  "dealer": [
+    {
+      "_id": "6ae5a2514f2e6df71f413c18",
+      "id": 1,
+      "city": "El Paso",
+      "state": "Texas",
+      "address": "3 Nova Court",
+      "zip": "88563",
+      "lat": "31.6948",
+      "long": "-106.3",
+      "short_name": "Holdlamis",
+      "full_name": "Holdlamis Car Dealership",
+      "__v": 0
+    }
+  ]
+}
